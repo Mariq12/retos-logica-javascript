@@ -1,3 +1,5 @@
+// El código define una función findFirstRepeated que busca el primer elemento repetido en un arreglo gifts. 
+// Si encuentra un elemento repetido, lo devuelve; si no, devuelve -1.
 function findFirstRepeated(gifts) {
     const seen = new Set();
     for (let id of gifts) {
